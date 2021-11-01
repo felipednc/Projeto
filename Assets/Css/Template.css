@@ -5,19 +5,7 @@
     75% {background-color: rgb(216, 235, 52);}
     100% {background-color: rgb(217, 255, 0);}
 }
-@keyframes fotos {
-    0% {background-image:url(../Imagen/animation/logoo.png);}
-    10% {background-image: url(../Imagen/animation/foto1.png);}
-    20% {background-image: url(../Imagen/animation/foto2.png);}
-    30% {background-image: url(../Imagen/animation/foto3.png);}
-    40% {background-image: url(../Imagen/animation/foto4.png);}
-    50% {background-image: url(../Imagen/animation/foto5.png);}
-    60% {background-image: url(../Imagen/animation/foto6.png);}
-    70% {background-image: url(../Imagen/animation/foto7.png);}
-    80% {background-image: url(../Imagen/animation/foto8.png);}
-    90% {background-image: url(../Imagen/animation/foto9.png);}
-    100% {background-image: url(../Imagen/animation/foto10.png);}
-}
+
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -123,7 +111,7 @@ nav a {
 
 nav .active a,
 nav a:hover{
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.288);
     color:black;
    
 }
@@ -607,4 +595,8 @@ article {
 
 #titlect {
     margin-left: 20px;
+}
+
+#menunav {
+    background-color: rgba(255, 255, 1, 0.466);
 }

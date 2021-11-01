@@ -9,9 +9,9 @@
 </head>
 <body>
 <!-- AREA DA LOGO-->
-<header>
-    <nav id="fixed" class="#f4ff81 lime accent-1">
-        <div class="nav-wrapper">
+<header id="Tops">
+    <nav id="fixed" class="lime accent-1">
+        <div id="menunav" class="nav-wrapper">
           <a href="Index.php" class="brand-logo"><img class="responsive-img" src="Assets/Imagen/Logo2.svg"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           
@@ -268,7 +268,7 @@
             </div>
         </div>
      <div class="footer_copy">
-         Copyright - Todos os direitos reservados.  Buiu Produções 
+         &copy;Copyright - Todos os direitos reservados.  Buiu Produções 
      </div>
     
 </div>
