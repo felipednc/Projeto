@@ -15,7 +15,7 @@
           <a href="Index.php" class="brand-logo"><img class="responsive-img" src="Assets/Imagen/Logo2.svg"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           
-          <ul class="right hide-on-med-and-down">
+          <ul class="right hide-on-med-and-down ">
             <li><a href="Index.php">Pagina inicial</a></li>
             <li><a href="https://telegra.ph/Cardap%C3%ADo-10-08">Cardapío</a></li>
             <li><a href="#suporte">Suporte</a></li><hr noshade align="right"/>
@@ -39,6 +39,9 @@
 </header>
 <!--AREA DO BANNER-->
 <section id="banner">
+<div id="banners" class="parallax-container">
+      <div class="parallax"><img src="./Assets/Imagen/Banner1.jpg"></div>
+    
     <div class="container column">
         <div class="banner_headline">
             <h1>  Os Melhores Bolos 🧁 </h1>
@@ -69,6 +72,7 @@
 
         </div>
     </div>
+</div>
 </section>
 
 <!-- SEGUNDO AREA DO SITE-->
