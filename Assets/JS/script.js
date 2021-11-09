@@ -39,3 +39,7 @@ app.controller('mainController', function($scope, $http){ //o scope liga o js e 
 $(document).ready(function(){
   $('.modal').modal();
 });
+
+$(document).ready(function(){
+  $('.fixed-action-btn').floatingActionButton();
+});

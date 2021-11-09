@@ -20,10 +20,10 @@
                 <div class="col s3 m7 offset-s1">
                     <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#formacoes">Formações</a></li>
-                            <li><a href="#comoFunciona">Como funciona</a></li>
+                            <li><a href="#Cardapio">Cardapio</a></li>
+                            <li><a href="#suporte">Suporte</a></li>
                             <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Entrar</a></li>
-                            <li><a href="#" class="waves-effect waves-light btn">Matricule-se</a></li>
+                            <li><a href="#" class="waves-effect waves-light btn">cadastrar</a></li>
                         </ul>
                     </div><!--.col-->
                 </nav>
@@ -31,10 +31,10 @@
             </div><!--.navbar-->
         <ul class="sidenav" id="mobile-menu">
             <img id="logomenu" src="Assets/Imagen/Logo2.svg">
-                <li><a href="#formacoes">Formações</a></li>
-                <li><a href="#comoFunciona">Como funcionar</a></li>
+                <li><a href="#Cardapio">Cardapio</a></li>
+                <li><a href="#suporte">Suporte</a></li>
                 <li><a href="#entrar" class="modal-trigger">Entrar</a></li>
-                <li><a href="#" class="waves-effect waves-light btn">Matricúle-se</a></li>
+                <li><a href="#" class="waves-effect waves-light btn">Cadastra-se</a></li>
             </ul>
  </header>
         
@@ -92,35 +92,35 @@
 
 <section id="geral">
 <div class="container">
-    <section>
-        <div class="widget">
-            <div class="widget_title">
-                <div class="widget_title_text">Bolos</div>
-                <div class="widget_title_bar"></div>
-            </div>
-            <div class="widget_body flex">
+<section>
+<div class="widget">
+    <div class="widget_title">
+     <div class="widget_title_text">Bolos</div>
+         <div class="widget_title_bar"></div>
+     </div>
+         <div class="widget_body flex">
                 
-                <article>
+         <article>
                    
-                    <div class="news_data">
-                        <div class="news_posted_at">15 DEZ 20</div>
-                        <div class="news_comments">👍 53</div>
-                    </div>
-                    <div class="card responsive-img">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator responsive-img" src="Assets/Imagen/s4.jfif">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
-                          <p><a href="#">Peça clicando aqui !</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
-                          <p>
-                            <b> branco com chantily e calda de maracujá</b><br/><br/>
-                            Bolo de chantininho e calda de maracujá, pode escolhe também qualquer sabor de caldas, Fica a seu gosto !! </p>
-                        </div>
-                      </div>
+        <div class="news_data">
+         <div class="news_posted_at">15 DEZ 20</div>
+               <div class="news_comments">👍 53</div>
+             </div>
+             <div class="card responsive-img">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator responsive-img" src="Assets/Imagen/s4.jfif">
+                 </div>
+                <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
+                     <p><a href="#">Peça clicando aqui !</a></p>
+                  </div>
+                  <div class="card-reveal">
+                   <span class="card-title grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
+                   <p>
+                    <b> branco com chantily e calda de maracujá</b><br/><br/>
+                         Bolo de chantininho e calda de maracujá, pode escolhe também qualquer sabor de caldas, Fica a seu gosto !! </p>
+                  </div>
+                 </div>
                 
                 </article>
 
@@ -323,6 +323,18 @@
   </div>
 
 
+
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
 
 
 
