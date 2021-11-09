@@ -35,3 +35,7 @@ app.controller('mainController', function($scope, $http){ //o scope liga o js e 
     $scope.nome = '';
   }
 });
+
+$(document).ready(function(){
+  $('.modal').modal();
+});

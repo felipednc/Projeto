@@ -9,72 +9,84 @@
 </head>
 <body>
 <!-- AREA DA LOGO-->
-<header id="Tops">
-    <nav id="fixed" class="lime accent-1">
-        <div id="menunav" class="nav-wrapper">
-          <a href="Index.php" class="brand-logo"><img class="responsive-img" src="Assets/Imagen/Logo2.svg"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          
-          <ul class="right hide-on-med-and-down ">
-            <li><a href="Index.php">Pagina inicial</a></li>
-            <li><a href="https://telegra.ph/Cardap%C3%ADo-10-08">Cardapío</a></li>
-            <li><a href="#suporte">Suporte</a></li><hr noshade align="right"/>
-            <li><a href="Login.php" class="waves-effect waves-light btn-large"><ss>Login</ss></a>
-            </li>
-            <li><a href="registrar.php" class="waves-effect waves-light btn-large"><ss>Cadastrar</ss></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      
+<section id="top" class="bg-top">
     
-      <ul class="sidenav" id="mobile-demo">
-          <img class="responsive-img" src="Assets/Imagen/Logo2.svg">
-        <li><a href="Index.php">Pagina Inicial</a></li><hr noshade="10"/>
-        <li><a href="https://telegra.ph/Cardap%C3%ADo-10-08">Cardapío</a></li><hr noshade="10"/>
-        <li><a href="#suporte">Suporte</a></li><hr noshade="10"/>
-        <li><a href="Login.php" class="waves-effect waves-light btn-large"><ss>Login</ss></a> <li><a href="registrar.php" class="waves-effect waves-light btn-large"><ss>Cadastrar</ss></a>
-        </li>
-        </li>
-      </ul>
-</header>
-<!--AREA DO BANNER-->
-<section id="banner">
+<header>
+     <div class="navbar-fixed nav-wrapper">
+         <nav class="row">
+                <div class="col s8 m3 offset-m1">
+                    <a href="#"><img class="responsive-img" src="Assets/Imagen/Logo2.svg" id="Logotop" alt="Bolos"></a>
+                </div> <!--.col-->
+                <div class="col s3 m7 offset-s1">
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#formacoes">Formações</a></li>
+                            <li><a href="#comoFunciona">Como funciona</a></li>
+                            <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Entrar</a></li>
+                            <li><a href="#" class="waves-effect waves-light btn">Matricule-se</a></li>
+                        </ul>
+                    </div><!--.col-->
+                </nav>
+                
+            </div><!--.navbar-->
+        <ul class="sidenav" id="mobile-menu">
+            <img id="logomenu" src="Assets/Imagen/Logo2.svg">
+                <li><a href="#formacoes">Formações</a></li>
+                <li><a href="#comoFunciona">Como funcionar</a></li>
+                <li><a href="#entrar" class="modal-trigger">Entrar</a></li>
+                <li><a href="#" class="waves-effect waves-light btn">Matricúle-se</a></li>
+            </ul>
+ </header>
+        
+    <!-- Area Do Banner -->
+
 <div id="banners" class="parallax-container">
-      <div class="parallax"><img src="./Assets/Imagen/Banner1.jpg"></div>
-    
-    <div class="container column">
+ <!-- /img paralax --> 
+<div class="container column">
+
         <div class="banner_headline">
             <h1>  Os Melhores Bolos 🧁 </h1>
             <h2>Bolos De Primeira Qualidade, Salgados de dá agua na boca 🤤</h2>
-        </div>
-        <div class="banner_options">
-            <div class="banner1">
-                <div class="banner_title">Sobre mim</div>
-                <div class="banner_desc"> Meu nome e Lucivania, Primeiramente Obrigado por está acessando o site e importante pra mim enfim, começei a vender bolo faz muitos anos, onde fiz varios cursos...</div>
-                <a class="lermais" href="">Ler mais →</a>
-            </div>
-            <div class="banner2">
-                <div class="banner_title">Redes Sociais</div>
-                <div class="banner_desc">
+        </div><!-- /banner_headline -->
+
+<div class="banner_options">
+
+    <div class="banner1">
+
+        <div class="banner_title">Sobre mim</div><!-- /banner_title -->
+
+<div class="banner_desc"> 
+                Meu nome e Lucivania, Primeiramente Obrigado por está acessando o site e importante pra mim enfim, começei a vender bolo faz muitos anos, onde fiz varios cursos...  
+</div><!-- /banner_desc -->
+
+        <a class="lermais" href="">Ler mais →</a>
+
+</div><!-- /banner1 -->
+
+        <div class="banner2">
+
+            <div class="banner_title">Redes Sociais</div> <!-- /banner_title -->
+
+<div class="banner_desc">
                 <ul>
                     <li><a class="Redes" href="https://www.instagram.com/lucivaniabolos" target="_blank"><img src="Assets/Imagen/insta.png"><i>Instagram</i></a></li><br/>
                     <li><a class="Redes" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20fazer%20uma%20encomenda%20!" target="_blank"><img src="Assets/Imagen/whatsapp.png"><i>Whatsapp</i></a></li><br/>
                     <li><a class="Redes" href="malito:lucivaniaferreira234@gmail.com" target="_blank"><img src="Assets/Imagen/email.png"><i>Email</i></a></li>
                 </ul>
-            </div>
-            </div>
-            <div class="banner3">
+</div><!-- /banner_desc -->
+</div><!-- /banner2 -->
+<div class="banner3">
                 <div class="banner_title">Horario De Funcionamento</div>
                 <div class="banner_desc1">SEG - SEX: Só Encomenda</div>
                 <div class="banner_desc2">Sábado        15:00 - 20:00</div>
                 <div class="banner_desc3">Domingo       15:00 - 19:00</div>
-            </div>
-
-        </div>
-    </div>
-</div>
-</section>
+</div><!--/Banner3 -->
+</div><!-- /Banneroptions -->
+</div><!-- /conteiner colum -->
+</div><!-- /Paralax -->
+        
+</section><!--/section#top-->
+<!--AREA DO BANNER-->
 
 <!-- SEGUNDO AREA DO SITE-->
 
@@ -282,6 +294,33 @@
 
     
 </footer>
+
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4>
+    </div>
+        <div class="row">
+            <form action="" class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="login" type="text" class="validate">
+                        <label for="login">Usuario</label>
+                     </div>
+                    </div>
+                 <div class="row">   
+                <div class="input-field col s12">
+                    <input id="senha" type="password" class="validate">
+                    <label for="password">Senha</label>
+                </div>
+                </div>
+                <input id="send" type="submit">
+            </form>
+        </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+  </div>
 
 
 
