@@ -167,37 +167,7 @@ nav img {
 #geral {
     display: flex;
     justify-content: space-between;
-}
-
-
-.widget_title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.widget_title_text,
-.widget_title_text1 {
-    color: black;
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.widget_title_bar,
-.widget_title_bar1 {
-    background-color: yellow;
-    width: 50px;
-    height: 2px;
-    margin-top: 8px;
-}
-.widget_body,
-.widget_body1{
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.widget_body {
-    align-items: center;
-    
+    height: 1000px;
 }
 
 
@@ -227,64 +197,12 @@ animation-iteration-count: infinite;
     width: 135px;
     height: 135px;
 }
-.widget_title1 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
 
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
-article .news_data {
- display: flex;
- 
-}
-article a {
-    text-decoration: none;
-    color: black;
-}
-article .news_posted_at {
-    background-color: rgb(174, 184, 38);
-    color: white;
-    font-size: 12px;
-    padding: 10px;
-    margin-right: 3px;
-    
-    
-}
-article .news_comments {
-    background-color: rgb(252, 249, 89);
-    color: black;
-    font-size: 12px;
-    padding: 10px;
-    
-   
-}
-article .news_thumb{
-    margin-top: 30px;
-}
-article .news_thumb img {
-    width: 100%;
-    height: auto;
-}
 
-article .news_title {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 23px;
-}
-article .news_resume {
-    color: #5c5c5c;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-article {
-    flex: 1;
-    min-width: 200px;
-    margin-right: 20px;
-}
 
 footer {
     background-color: black;
@@ -330,10 +248,6 @@ display: flex;
 footer .widget_title_text {
     color: white;
     
-}
-
-article {
-    z-index: 0;
 }
 
 
@@ -432,11 +346,7 @@ article {
     }
 
     
-    .widget_body {
-        margin-left: 30px;
-        flex-direction:column;
-        
-    }
+    
     nav ul {
         flex-direction: column;
         display: none;
@@ -528,4 +438,59 @@ section#top nav ul a{
 
 section#top nav ul li:nth-child(3){
 	border-left: 1px solid rgb(102, 104, 5);
+}
+
+#secondpart {
+    
+    background-image: url(https://i.ibb.co/r7js0t4/Set-of-vector-cartoon-doodle-icons-dessert-cake-ice-cream-sweets-food-Illustration-of-comic-baking.jpg);
+}
+
+.cont {
+    
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.cards {
+    justify-content: center;
+    display: flex;
+    
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+#card1 {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: px;
+}
+.card {
+    display: block;
+    width: 300px;
+    margin-left: 50px;
+}
+
+#card2{
+    display: flex;
+    
+}
+#cardmargin {
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.depart {
+    display: flex;
+}
+
+.arearight {
+    display: flex;
+}
+
+.bolosqua{
+    display: flex;
+    
+    flex-direction: column;
 }

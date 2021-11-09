@@ -31,9 +31,9 @@
             </div><!--.navbar-->
         <ul class="sidenav" id="mobile-menu">
             <img id="logomenu" src="Assets/Imagen/Logo2.svg">
-                <li><a href="#Cardapio">Cardapio</a></li>
-                <li><a href="#suporte">Suporte</a></li>
-                <li><a href="#entrar" class="modal-trigger">Entrar</a></li>
+                <li><a href="#Cardapio">Cardapio</a></li><hr/>
+                <li><a href="#suporte">Suporte</a></li> <hr/>
+                <li><a href="#entrar" class="modal-trigger waves-effect waves-light btn">Entrar</a></li>
                 <li><a href="#" class="waves-effect waves-light btn">Cadastra-se</a></li>
             </ul>
  </header>
@@ -86,128 +86,75 @@
 </div><!-- /Paralax -->
         
 </section><!--/section#top-->
-<!--AREA DO BANNER-->
-
+<!--------------------------------------------------FIM DA AREA DO TOPO --------------------------------------------->
 <!-- SEGUNDO AREA DO SITE-->
+<section id="Secondpart">
+    <div class="cont container">
+        <div class="cards">
 
-<section id="geral">
-<div class="container">
-<section>
-<div class="widget">
-    <div class="widget_title">
-     <div class="widget_title_text">Bolos</div>
-         <div class="widget_title_bar"></div>
-     </div>
-         <div class="widget_body flex">
-                
-         <article>
-                   
-        <div class="news_data">
-         <div class="news_posted_at">15 DEZ 20</div>
-               <div class="news_comments">👍 53</div>
-             </div>
-             <div class="card responsive-img">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator responsive-img" src="Assets/Imagen/s4.jfif">
-                 </div>
-                <div class="card-content">
-                 <span class="card-title activator grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
-                     <p><a href="#">Peça clicando aqui !</a></p>
-                  </div>
-                  <div class="card-reveal">
-                   <span class="card-title grey-text text-darken-4">Bolo de maracujá<i class="material-icons right"></i></span>
-                   <p>
-                    <b> branco com chantily e calda de maracujá</b><br/><br/>
-                         Bolo de chantininho e calda de maracujá, pode escolhe também qualquer sabor de caldas, Fica a seu gosto !! </p>
-                  </div>
-                 </div>
-                
-                </article>
+        <div id="cardmargin" class="card small">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img id="card1" class="activator" src="Assets/Imagen/s4.jfif">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
-                <article>
-                    
-                    <div class="news_data">
-                        <div class="news_posted_at">10 FEV 21</div>
-                        <div class="news_comments">👍 41</div>
-                    </div>
-                    <div class="card responsive-img">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator responsive-img"  src="Assets/Imagen/ss.jfif">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Bolo branco com calda<i class="material-icons right"></i></span>
-                          <p><a href="#">Peça clicando aqui !</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">bolo branco com calda<i class="material-icons right"></i></span>
-                          <p> Bolo branco com calda, Pode escolhe qualquer sabor de calda, fica a seu gosto !!
-                            <b>Só encomenda</b></p>
-                        </div>
-                      </div>
-                
-                </article>
+  <div id="cardmargin" class="card small">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img id="card1" class="activator" src="Assets/Imagen/s4.jfif">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
-                <article>
-                   
-                    <div class="news_data">
-                        <div class="news_posted_at">20 MAR 21</div>
-                        <div class="news_comments">👍 35</div>
-                    </div>
-                    <div class="card responsive-img">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator responsive-img" src="Assets/Imagen/sss.jfif">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Bolo com tema de flores<i class="material-icons right"></i></span>
-                          <p><a href="#">Peça clicando aqui !</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">Bolo com tema de flores<i class="material-icons right"></i></span>
-                          <p>Bolo De chocolate, Com chantininho e Ganache uma delicia, Escolha qualquer tema e peça já o seu !
-                            <b>Só encomenda</b></p>
-                        </div>
-                      </div>
-                
-                </article>
+  <div id="cardmargin" class="card small">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img id="card2" class="activator" src="Assets/Imagen/s4.jfif">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
-                <article>
-                    
-                    <div class="news_data">
-                        <div class="news_posted_at">25 ABR 21</div>
-                        <div class="news_comments">👍 61</div>
-                    </div>
-                    <div class="card responsive-img">
-                        <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator responsive-img" src="Assets/Imagen/s5.jfif">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4">Pudim<i class="material-icons right"></i></span>
-                          <p><a href="#">Peça clicando aqui !</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">Pudim<i class="material-icons right"></i></span>
-                          <p>Pudim Tradicional com leite de moça, uma delicia, Peça ja o seu !!! 
-                            <b>Só encomenda</b></p>
-                        </div>
-                      </div>
-                
-                </article>
-            </div>
-        </div>
-    </section>
+  <div id="cardmargin" class="card small">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img id="card2" class="activator" src="Assets/Imagen/s4.jfif">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
-<!-- AREA DE DEPARMENTS-->
+        </div> <!-- /cards -->
 
+        <div class="depart">
 
-
-    <aside>
-        <div class="widget">
-            <div class="widget_title">
-                <div class="widget_title_text">Bolos Para Encomenda !</div>
-                <div class="widget_title_bar"></div>
-            </div>
-            <div class="widget_body">
-                <h6>Clique na Imagen e encomenda ja o seu !</h6>
+        <div class="arearight">
+            
+            <div class="bolosqua">
                 <div class="bloo1"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oi%2C%20eu%20quero%20este%20bolo%2C%20Por%20favor%20!!!%20%20%20%20%20%20%20%20%20%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc7%2F66%2Fa4%2Fc766a4c72660de9a04c11e6878e341d4.jpg"><img src="Assets/Imagen/bolo1.png" class="bolo1"/></a></div>
                 <div class="bloo2"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20esse%20bolo%20!!%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2F96%2F92%2F51%2F969251e9698da2e51e2e046c0e8e1ef2.jpg"><img class="bolo2" src="Assets/Imagen/bolo2.png"/></a></div>
                 <div class="bloo3"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20esse%20bolo%20!!%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2F58%2F92%2Fc0%2F5892c0a97de7b883d3b062c597c0376d.jpg"><img class="bolo3" src="Assets/Imagen/bolo3.png"/></a></div>
@@ -217,30 +164,9 @@
                 
             </div>
         </div>
-        <div class="widget1">
-            <div class="widget_title1">
-                <div class="widget_title_text1">Localização !!</div>
-                <div class="widget_title_bar1"></div>
-            </div>
-            <div class="widget_body1">
-                    <h4><img class="locaa" src="Assets/Imagen/loca.png"/><a class="loca" target="_blank" href="https://www.google.com.br/maps/place/Lucivania+bolos+e+doces/@-8.0227568,-34.988109,18z/data=!4m5!3m4!1s0x7ab1ba85044ef31:0xfcd98df8702c4838!8m2!3d-8.0229235!4d-34.9869753">Endereço: Rua Maria das Dores Silva, 846   Camaragibe,Pernambuco</a></h4><br/>
-                    <div class="carousel">
-                        <a class="carousel-item" href="#one!"><img src="Assets/Imagen/animation/foto1.png"></a>
-                        <a class="carousel-item" href="#two!"><img src="Assets/Imagen/animation/foto2.png"></a>
-                        <a class="carousel-item" href="#three!"><img src="Assets/Imagen/animation/foto3.png"></a>
-                        <a class="carousel-item" href="#four!"><img src="Assets/Imagen/animation/foto4.png"></a>
-                        <a class="carousel-item" href="#five!"><img src="Assets/Imagen/animation/foto5.png"></a>
-                        <a class="carousel-item" href="#six!"><img src="Assets/Imagen/animation/foto6.png"></a>
-                        <a class="carousel-item" href="#seven!"><img src="Assets/Imagen/animation/foto7.png"></a>
-                        <a class="carousel-item" href="#eitgh!"><img src="Assets/Imagen/animation/foto8.png"></a>
-                        <a class="carousel-item" href="#nine!"><img src="Assets/Imagen/animation/foto9.png"></a>
-                        <a class="carousel-item" href="#ten!"><img src="Assets/Imagen/animation/foto10.png"></a>
-                      </div>
-            </div>
         </div>
-    </aside>
+    </div>
 
-</div>
 </section>
 <!-- AREA DEBAIXO DO SITE-->
 <footer>
