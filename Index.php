@@ -153,7 +153,6 @@
         <div class="depart">
 
         <div class="arearight">
-            
             <div class="bolosqua">
                 <div class="bloo1"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oi%2C%20eu%20quero%20este%20bolo%2C%20Por%20favor%20!!!%20%20%20%20%20%20%20%20%20%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc7%2F66%2Fa4%2Fc766a4c72660de9a04c11e6878e341d4.jpg"><img src="Assets/Imagen/bolo1.png" class="bolo1"/></a></div>
                 <div class="bloo2"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20esse%20bolo%20!!%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2F96%2F92%2F51%2F969251e9698da2e51e2e046c0e8e1ef2.jpg"><img class="bolo2" src="Assets/Imagen/bolo2.png"/></a></div>
@@ -161,8 +160,21 @@
                 <div class="bloo4"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20quero%20esse%20bolo%20!!%20%20%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2F03%2Ffe%2F16%2F03fe16605e4db3d11fec0e567d548dc7.jpg"><img class="bolo4" src="Assets/Imagen/bolo4.png"/></a></div>
                 <div class="bloo5"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20esse%20bolo%20!!%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcc%2F78%2F09%2Fcc78099b61c5c74d7fcbab308ea3022b.jpg"><img class="bolo5" src="Assets/Imagen/bolo5.png"/></a></div>
                 <div class="bloo6"><a target="_blank" href="https://api.whatsapp.com/send?phone=5581985483194&text=Oii%2C%20Quero%20esse%20bolo!!%20%20%20%20https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5a%2F30%2Fb4%2F5a30b416b6f47b929baead5ddc16638f.jpg"><img class="bolo6" src="Assets/Imagen/bolo6.png"/></a></div>
-                
             </div>
+            
+        </div>
+        <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="Assets/Imagen/animation/foto1.png"></a>
+                        <a class="carousel-item" href="#two!"><img src="Assets/Imagen/animation/foto2.png"></a>
+                        <a class="carousel-item" href="#three!"><img src="Assets/Imagen/animation/foto3.png"></a>
+                        <a class="carousel-item" href="#four!"><img src="Assets/Imagen/animation/foto4.png"></a>
+                        <a class="carousel-item" href="#five!"><img src="Assets/Imagen/animation/foto5.png"></a>
+                        <a class="carousel-item" href="#six!"><img src="Assets/Imagen/animation/foto6.png"></a>
+                        <a class="carousel-item" href="#seven!"><img src="Assets/Imagen/animation/foto7.png"></a>
+                        <a class="carousel-item" href="#eitgh!"><img src="Assets/Imagen/animation/foto8.png"></a>
+                        <a class="carousel-item" href="#nine!"><img src="Assets/Imagen/animation/foto9.png"></a>
+                        <a class="carousel-item" href="#ten!"><img src="Assets/Imagen/animation/foto10.png"></a>
+  </div>
         </div>
         </div>
     </div>

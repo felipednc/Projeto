@@ -449,14 +449,14 @@ section#top nav ul li:nth-child(3){
     
     display: flex;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.267);
 }
 
 .cards {
     justify-content: center;
     display: flex;
     
-    width: 70%;
+    width: 66%;
     flex-wrap: wrap;
 }
 
@@ -483,14 +483,23 @@ section#top nav ul li:nth-child(3){
 
 .depart {
     display: flex;
+    
+    width: 34%;
+    flex-wrap: wrap;
 }
 
 .arearight {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+
 }
 
 .bolosqua{
     display: flex;
-    
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
 }
