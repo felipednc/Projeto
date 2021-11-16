@@ -371,9 +371,9 @@ footer .widget_title_text {
             
             
         }
-        .banner_headline h1, .banner_headline h2 {
-         color: white;
-        }
+.banner_headline h1, .banner_headline h2 {
+    color: white;
+ }
    
 }
 
@@ -442,7 +442,7 @@ section#top nav ul li:nth-child(3){
 
 #secondpart {
     
-    background-image: url(https://i.ibb.co/r7js0t4/Set-of-vector-cartoon-doodle-icons-dessert-cake-ice-cream-sweets-food-Illustration-of-comic-baking.jpg);
+    
 }
 
 .cont {
@@ -479,6 +479,8 @@ section#top nav ul li:nth-child(3){
 #cardmargin {
     margin-left: 50px;
     margin-right: 70px;
+    width: 250px;
+    height: 250px;
 }
 
 .depart {
@@ -503,3 +505,114 @@ section#top nav ul li:nth-child(3){
     justify-content: center;
     padding: 10px;
 }
+#layoutmenu {
+    display: none;
+}
+#formacoes {
+    display: none;
+}
+#partmobile{
+    display: none;
+}
+#menuzin {
+    display: flex;
+}
+
+#Mobtext {
+    display: none;
+}
+.carousel {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #cardmargin {
+        width: auto;
+        height: auto;
+
+    }
+    
+    .depart{
+        display: none;
+    }
+    .cards {
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+    #partmobile{
+        display: block;
+    }
+    #Secondpart {
+        display: none;
+    }
+
+    #blocos{
+        display: none;
+    }
+
+    #text-in {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 80px;
+        margin-top: 50px;
+        height:200px;
+        width: 350px;
+    }
+    
+    #layoutmenu{
+        background-color: rgb(230, 230, 5);
+        height: 5em;
+        display: flex;
+        justify-content: center;
+
+    }
+    #Sidemenu ul{
+        display: flex;
+    }
+    #Sidemenu ul li {
+        margin-right: 15px;
+        color: black;
+    }
+    #Sidemenu ul li a{
+        color: black;
+    }
+    #banners{
+        display: none;
+    }
+    #Mobtext {
+        color: white;
+        height: 25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #Mobtext h1 {
+       
+        font-size: 40px;
+    }
+    #Mobtext h2 {
+       
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
