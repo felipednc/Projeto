@@ -440,10 +440,7 @@ section#top nav ul li:nth-child(3){
 	border-left: 1px solid rgb(102, 104, 5);
 }
 
-#secondpart {
-    
-    
-}
+
 
 .cont {
     
@@ -525,13 +522,34 @@ section#top nav ul li:nth-child(3){
     display: none;
 }
 
+#modal2 {
+    background-color: rgb(221, 221, 71) ;
+}  
+#modal3 {
+    background-color: rgb(189, 189, 62) ;
+}
+#modal4 {
+    background-color: rgb(170, 170, 47);
+}
 @media screen and (max-width: 900px) {
     #cardmargin {
         width: auto;
         height: auto;
 
     }
-    
+    #flexs {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #formacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .depart{
         display: none;
     }
