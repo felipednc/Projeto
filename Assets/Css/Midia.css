@@ -1,0 +1,28 @@
+@media screen and (max-width: 1350px) {
+    #areadireita {
+        display: none;
+    }
+    #partmobile {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(238, 255, 0, 0.267);
+        
+        width: 63em;
+        
+    }
+    #arearight {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        
+        
+        }
+    #bloo1 {
+        width: 80px;
+        height: 80px;
+    }
+    #gerall {
+        display: flex;
+        justify-content: center;
+    }
+}
